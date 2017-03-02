@@ -1,4 +1,4 @@
-![image](/static/images/headerUP.gif)                                                                                                       <!--![image](/static/images/headerCS.gif) -->
+
 
 # COS 301 - Software Engineering
 
