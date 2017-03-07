@@ -1,16 +1,27 @@
 \documentclass[12pt,a4paper]{article}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{graphicx}
-\usepackage{bookmark}
+\usepackage[margin=2.5cm,left=2cm,includefoot]{geometry}
 \usepackage{hyperref}
+\usepackage{array}
 \usepackage{enumitem}
-\usepackage{changepage}
-\usepackage{float}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{titlesec}
 
 \setlength{\parindent}{0em}
 
 \graphicspath{{Images/}}
+
+% Header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\rhead{COS 301}
+\lhead{Team Objective C}
+\fancyfoot{}
+\fancyfoot[R]{Page \thepage}
+
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
 
 \begin{document}
 
@@ -18,6 +29,16 @@
 
 \tableofcontents
 \newpage
+
+\section{Design Constraints}
+	\begin{itemize}
+		\item The NavUp application must at least have  basic navigation system functionalities.
+		\item The location  of the user must be determined both indoors and outdoors.
+		\item 
+		\item PHP and JavaScript will be used for the web and Android Studio for the android application.
+		\item The system should cater for and including 100 users as a maximum.
+		\item There should be a log that records all activity on the system
+	\end{itemize}
 
 \end{document}
 
