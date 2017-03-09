@@ -53,11 +53,19 @@ This section will cover the requirements of the external interface of the NavUP 
 	
 \section{UML}
 	\subsection{UML - User}
-	The architecture of the User group is decidedly much simpler than the other modules as the user module is characterized mainly 		by the Template Design Pattern
+	The architecture of the User group is decidedly much simpler than the other modules as the user module is characterized mainly 		by the Template Design Pattern.
 	\begin{figure}[H]
 		\includegraphics[width=\linewidth]{Images/User.jpg}
 		\caption{UML of the User classes}
 	\end{figure}
+	
+	\subsection{UML - Events}
+	The modelling of the Events module will be characterized by the Observer design pattern, since the EventHandler will attach the 	users that are willing to participate, and will use the notify() method to communicate with only the participants of the event 		not a user that does not want to participate and just happens to be in proximity of event.
+	\begin{figure}[H]
+		\includegraphics[width=\linewidth]{Images/Events.jpg}
+		\caption{UML of the Events module}
+	\end
+	
 	
 
 \end{document}
